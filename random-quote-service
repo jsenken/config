@@ -1,1 +1,6 @@
-
+# this is the port on which the service will run
+server.port=2244
+# allow for RefreshScope
+management.endpoints.web.exposure.include=*
+# the hello-cloud-service will use this as a greeting that it servers up
+officialGreeting="This is the new new greeting for the refresh"
